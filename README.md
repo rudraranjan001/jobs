@@ -64,18 +64,7 @@ A modern, full-stack Job Portal platform built with the **MERN stack** (MongoDB,
 
 ---
 
-## 📐 Project Architecture
 
-```mermaid
-graph TD
-    Client["React Frontend (Vite + Redux + Tailwind)"] -->|HTTP / Cookies / JSON| Server["Express.js Server (Node.js)"]
-    Server -->|Auth Middleware (JWT)| Routes["API Routes (User, Job, Company, Application)"]
-    Routes -->|Business Logic| Controllers["Controllers"]
-    Controllers -->|ODM Queries| MongoDB[(MongoDB Atlas)]
-    Controllers -->|Multer / DataURI| Cloudinary["Cloudinary (Resumes & Logos)"]
-```
-
----
 
 ## 🚀 Getting Started
 
