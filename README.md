@@ -224,23 +224,7 @@ jobportal/
 └── README.md                 # Project documentation
 ```
 
----
 
-## 🌐 Deployment
-
-### Backend (Render / Railway / VPS)
-1. Set the root directory to `backend`.
-2. Build command: `npm install`.
-3. Start command: `npm start` (or `node index.js`).
-4. Set all backend environment variables in the hosting dashboard.
-
-### Frontend (Vercel / Netlify)
-1. Set the root directory to `frontend`.
-2. Build command: `npm run build`.
-3. Output directory: `dist`.
-4. Set `VITE_BACKEND_URL` to your live backend URL (e.g. `https://your-backend.onrender.com`).
-
----
 
 ## 🤝 Contributing
 
