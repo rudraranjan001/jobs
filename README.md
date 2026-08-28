@@ -47,7 +47,7 @@ A modern, full-stack Job Portal platform built with the **MERN stack** (MongoDB,
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Framework**: [React 18](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
 - **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) + [Redux Persist](https://github.com/rt2zz/redux-persist)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/) (shadcn/ui style components)
 - **Animations & Icons**: [Framer Motion](https://www.framer.com/motion/) + [Lucide React](https://lucide.dev/)
@@ -56,7 +56,7 @@ A modern, full-stack Job Portal platform built with the **MERN stack** (MongoDB,
 - **HTTP Client**: [Axios](https://axios-http.com/)
 
 ### Backend
-- **Runtime**: [Node.js](https://nodejs.org/) (ES Modules)
+- **Runtime**: [Node.js](https://nodejs.org/) 
 - **Framework**: [Express.js](https://expressjs.com/)
 - **Database**: [MongoDB](https://www.mongodb.com/) with [Mongoose ODM](https://mongoosejs.com/)
 - **Authentication**: [JSON Web Tokens (JWT)](https://jwt.io/) + [Cookie-Parser](https://www.npmjs.com/package/cookie-parser) + [bcryptjs](https://www.npmjs.com/package/bcryptjs)
